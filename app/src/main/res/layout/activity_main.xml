@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/mix_background"
+    android:background="@drawable/space_bg"
     android:orientation="vertical">
 
     <LinearLayout
@@ -21,13 +21,14 @@
         android:layout_height="150dp"
         app:cardCornerRadius="5dp"
         app:cardElevation="10dp"
+        android:onClick="openChar"
         app:cardBackgroundColor="@color/cardBackgroundColor"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="90dp">
 
         <TextView
             android:id="@+id/people"
-            android:onClick="openChar"
+
             android:text="   Characters"
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -49,6 +50,7 @@
         android:id="@+id/card_view_planets"
         android:layout_gravity="center"
         android:layout_width="250dp"
+        android:onClick="openPlanets"
         android:layout_height="150dp"
         card_view:cardCornerRadius="4dp"
         card_view:cardElevation="10dp"
@@ -58,7 +60,6 @@
 
         <TextView
             android:id="@+id/planets"
-            android:onClick="openPlanets"
             android:text="Planets   "
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -80,6 +81,7 @@
         android:id="@+id/card_view_species"
         android:layout_gravity="center"
         android:layout_width="250dp"
+        android:onClick="openSpecies"
         android:layout_height="150dp"
         card_view:cardCornerRadius="4dp"
         card_view:cardElevation="10dp"
@@ -89,7 +91,7 @@
 
         <TextView
             android:id="@+id/species"
-            android:onClick="openSpecies"
+
             android:text="   species"
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -111,6 +113,7 @@
         android:layout_gravity="center"
         android:layout_width="250dp"
         android:layout_height="150dp"
+        android:onClick="openVehicles"
         card_view:cardCornerRadius="4dp"
         card_view:cardElevation="10dp"
         app:cardBackgroundColor="@color/cardBackgroundColor"
@@ -119,7 +122,6 @@
 
         <TextView
             android:id="@+id/vehicles"
-            android:onClick="openVehicles"
             android:text="vehicles   "
             android:textStyle="bold"
             android:textAllCaps="true"
