@@ -30,14 +30,17 @@
         android:paddingBottom="30dp"
         android:orientation="vertical">
 
-        <Button
+        <android.support.design.button.MaterialButton
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/button1"
             android:layout_width="300dp"
             android:layout_height="0dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:onClick="button_clicked"
-            />
+            android:strokeColor="@color/lightSaberBlue"
+            android:strokeWidth="30dp"
+            tools:ignore="MissingClass" />
 
         <Button
             android:id="@+id/button2"

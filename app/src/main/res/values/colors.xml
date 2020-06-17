@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#1A1A1A</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="lightSaberBlue">#1687E1</color>
+    <color name="lightSaberRed">#FA0101</color>
+    <color name="lightSaberGreen">#38A83D</color>
 </resources>
